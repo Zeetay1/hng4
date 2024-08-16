@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="fast-api-project-setup-container">
+        <div class="fast-api-project-setup-fast-api-project-setup">
+          <div class="fast-api-project-setup-frame2147226382">
+            <div class="fast-api-project-setup-frame2147226383">
+              <div class="fast-api-project-setup-heading1">
+                <span class="fast-api-project-setup-text100 H1Bold">
+                  <span>
+                    Getting Started with FastAPI: A Complete Project Setup Guide
+                  </span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-sub-heading1">
+                <span class="fast-api-project-setup-text102 H6Medium">
+                  <span>
+                    How to Build High-Performance APIs with FastAPI from Scratch
+                  </span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-sub-heading2">
+                <span class="fast-api-project-setup-text104">
+                  <span>
+                    FastAPI is a modern, fast web framework (as the name
+                    implies) for building APIs with Python. In this guide, we’ll
+                    walk through setting up a FastAPI project from scratch,
+                    highlighting the key features that make FastAPI an excellent
+                    choice for API development.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <img
+              src="public/external/line12002-kkj.svg"
+              alt="Line12002"
+              class="fast-api-project-setup-line1"
+            />
+            <div class="fast-api-project-setup-frame2147226376">
+              <div class="fast-api-project-setup-subheading1">
+                <span class="fast-api-project-setup-text106 H4SemiBold">
+                  <span>Setting Up Your Development Environment</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame21472263751">
+                <div class="fast-api-project-setup-heading2">
+                  <span class="fast-api-project-setup-text108">
+                    <span class="fast-api-project-setup-text109">
+                      Install Python:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text111"></span>
+                    <span class="fast-api-project-setup-text112">
+                      Ensure you have Python 3.7 or later installed on your
+                      machine. You can download the latest version from the
+                    </span>
+                    <span class="fast-api-project-setup-text113">
+                      official Python website
+                    </span>
+                    <span class="fast-api-project-setup-text114">.</span>
+                    <br />
+                    <span class="fast-api-project-setup-text116"></span>
+                    <br />
+                    <span class="fast-api-project-setup-text118"></span>
+                    <span class="fast-api-project-setup-text119">
+                      Create a Virtual Environment:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text121"></span>
+                    <span>
+                      Creating a virtual environment isolates your project’s
+                      dependencies, ensuring a clean and manageable setup.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card10">
+                  <div class="fast-api-project-setup-frame214722637310">
+                    <div class="fast-api-project-setup-frame214722637410">
+                      <img
+                        src="public/external/iconoirterminal2002-td7k.svg"
+                        alt="iconoirterminal2002"
+                        class="fast-api-project-setup-iconoirterminal10"
+                      />
+                      <span
+                        class="fast-api-project-setup-text123 BodyRegularxsmall"
+                      >
+                        <span>bash</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy10">
+                      <img
+                        src="public/external/icon2002-xbur.svg"
+                        alt="icon2002"
+                        class="fast-api-project-setup-icon10"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code10">
+                    <span class="fast-api-project-setup-text125">
+                      <span>python -m venv fastapi-env</span>
+                      <br />
+                      <span>
+                        source fastapi-env/bin/activate # On Windows use
+                        `fastapi-env\Scripts\activate`
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-rb5h-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402910"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext10">
+                  <span class="fast-api-project-setup-text129">
+                    <span class="fast-api-project-setup-text130">
+                      Install FastAPI and Uvicorn:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text132"></span>
+                    <span>
+                      Uvicorn is a lightning-fast ASGI server for Python, used
+                      to run FastAPI applications.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card11">
+                  <div class="fast-api-project-setup-frame214722637311">
+                    <div class="fast-api-project-setup-frame214722637411">
+                      <img
+                        src="public/external/iconoirterminal2012-yays.svg"
+                        alt="iconoirterminal2012"
+                        class="fast-api-project-setup-iconoirterminal11"
+                      />
+                      <span
+                        class="fast-api-project-setup-text134 BodyRegularxsmall"
+                      >
+                        <span>bash</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy11">
+                      <img
+                        src="public/external/icon2012-ias.svg"
+                        alt="icon2012"
+                        class="fast-api-project-setup-icon11"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code11">
+                    <span class="fast-api-project-setup-text136">
+                      <span>pip install fastapi uvicorn</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292012-f3m9-200w.png"
+                    alt="Rectangle40292012"
+                    class="fast-api-project-setup-rectangle402911"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="fast-api-project-setup-frame2147226384">
+              <div class="fast-api-project-setup-subheading2">
+                <span class="fast-api-project-setup-text138 H4SemiBold">
+                  <span>Creating a Basic FastAPI Application</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame21472263752">
+                <div class="fast-api-project-setup-heading3">
+                  <span class="fast-api-project-setup-text140">
+                    <span class="fast-api-project-setup-text141">
+                      Project Structure:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text143"></span>
+                    <span>
+                      Set up your project directory with a clear structure.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card12">
+                  <div class="fast-api-project-setup-frame214722637312">
+                    <div class="fast-api-project-setup-frame214722637412">
+                      <img
+                        src="public/external/iconoirterminal2012-t5ul.svg"
+                        alt="iconoirterminal2012"
+                        class="fast-api-project-setup-iconoirterminal12"
+                      />
+                      <span
+                        class="fast-api-project-setup-text145 BodyRegularxsmall"
+                      >
+                        <span>markdown</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy12">
+                      <img
+                        src="public/external/icon2012-i9x4.svg"
+                        alt="icon2012"
+                        class="fast-api-project-setup-icon12"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code12">
+                    <span class="fast-api-project-setup-text147">
+                      <span>fastapi_project/</span>
+                      <br />
+                      <span>├── app/</span>
+                      <br />
+                      <span>│ ├── __init__.py</span>
+                      <br />
+                      <span>│ ├── main.py</span>
+                      <br />
+                      <span>├── .gitignore</span>
+                      <br />
+                      <span>├── requirements.txt</span>
+                      <br />
+                      <span>└── README.md</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-ku2n-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402912"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext11">
+                  <span class="fast-api-project-setup-text161">
+                    <span class="fast-api-project-setup-text162">
+                      Writing Your First Endpoint:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text164"></span>
+                    <span>Create main.py inside the app directory.</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card13">
+                  <div class="fast-api-project-setup-frame214722637313">
+                    <div class="fast-api-project-setup-frame214722637413">
+                      <img
+                        src="public/external/iconoirterminal2002-08xh.svg"
+                        alt="iconoirterminal2002"
+                        class="fast-api-project-setup-iconoirterminal13"
+                      />
+                      <span
+                        class="fast-api-project-setup-text166 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy13">
+                      <img
+                        src="public/external/icon2002-oex.svg"
+                        alt="icon2002"
+                        class="fast-api-project-setup-icon13"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code13">
+                    <span class="fast-api-project-setup-text168">
+                      <span>from fastapi import FastAPI</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>app = FastAPI()</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.get("/")</span>
+                      <br />
+                      <span>async def read_root():</span>
+                      <br />
+                      <span>return {"message": "Welcome to FastAPI!"}</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.get("/items/{item_id}")</span>
+                      <br />
+                      <span>
+                        async def read_item(item_id: int, q: str = None):
+                      </span>
+                      <br />
+                      <span>return {"item_id": item_id, "q": q}</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-1x0u-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402913"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext12">
+                  <span class="fast-api-project-setup-text190">
+                    <span class="fast-api-project-setup-text191">
+                      Running the Application:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text193"></span>
+                    <span>Use Uvicorn to run your application.</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card14">
+                  <div class="fast-api-project-setup-frame214722637314">
+                    <div class="fast-api-project-setup-frame214722637414">
+                      <img
+                        src="public/external/iconoirterminal2012-bhkc.svg"
+                        alt="iconoirterminal2012"
+                        class="fast-api-project-setup-iconoirterminal14"
+                      />
+                      <span
+                        class="fast-api-project-setup-text195 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy14">
+                      <img
+                        src="public/external/icon2012-3bkx5.svg"
+                        alt="icon2012"
+                        class="fast-api-project-setup-icon14"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code14">
+                    <span class="fast-api-project-setup-text197">
+                      <span>uvicorn app.main:app --reload</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292012-lwt-200w.png"
+                    alt="Rectangle40292012"
+                    class="fast-api-project-setup-rectangle402914"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext13">
+                  <span class="fast-api-project-setup-text199">
+                    <span>
+                      Open your browser and navigate to http://127.0.0.1:8000 to
+                      see your API in action.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="fast-api-project-setup-frame2147226385">
+              <div class="fast-api-project-setup-subheading3">
+                <span class="fast-api-project-setup-text201 H4SemiBold">
+                  <span>Interactive API Documentation:</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame21472263753">
+                <div class="fast-api-project-setup-heading4">
+                  <span class="fast-api-project-setup-text203">
+                    <span>
+                      FastAPI provides interactive API documentation out of the
+                      box.
+                    </span>
+                    <br />
+                    <span>
+                      Visit http://127.0.0.1:8000/docs for Swagger UI and
+                      http://127.0.0.1:8000/redoc for ReDoc.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-subheading4">
+                  <span class="fast-api-project-setup-text207 H4SemiBold">
+                    <span>Structuring Your FastAPI Project</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-subtext14">
+                  <span class="fast-api-project-setup-text209">
+                    <span class="fast-api-project-setup-text210">
+                      Organizing Your Code:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text212"></span>
+                    <span>
+                      As your application grows, a well-organized structure is
+                      crucial.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card15">
+                  <div class="fast-api-project-setup-frame214722637315">
+                    <div class="fast-api-project-setup-frame214722637415">
+                      <img
+                        src="public/external/iconoirterminal2002-bxu.svg"
+                        alt="iconoirterminal2002"
+                        class="fast-api-project-setup-iconoirterminal15"
+                      />
+                      <span
+                        class="fast-api-project-setup-text214 BodyRegularxsmall"
+                      >
+                        <span>markdown</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy15">
+                      <img
+                        src="public/external/icon2002-i3vn.svg"
+                        alt="icon2002"
+                        class="fast-api-project-setup-icon15"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code15">
+                    <span class="fast-api-project-setup-text216">
+                      <span>fastapi_project/</span>
+                      <br />
+                      <span>├── app/</span>
+                      <br />
+                      <span>│ ├── __init__.py</span>
+                      <br />
+                      <span>│ ├── main.py</span>
+                      <br />
+                      <span>│ ├── models/</span>
+                      <br />
+                      <span>│ │ ├── __init__.py</span>
+                      <br />
+                      <span>│ │ └── item.py</span>
+                      <br />
+                      <span>│ ├── routers/</span>
+                      <br />
+                      <span>│ │ ├── __init__.py</span>
+                      <br />
+                      <span>│ │ └── item.py</span>
+                      <br />
+                      <span>│ ├── schemas/</span>
+                      <br />
+                      <span>│ │ ├── __init__.py</span>
+                      <br />
+                      <span>│ │ └── item.py</span>
+                      <br />
+                      <span>│ ├── db.py</span>
+                      <br />
+                      <span>├── .gitignore</span>
+                      <br />
+                      <span>├── requirements.txt</span>
+                      <br />
+                      <span>└── README.md</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-k7oo-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402915"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext15">
+                  <span class="fast-api-project-setup-text250">
+                    <span class="fast-api-project-setup-text251">
+                      Creating Models:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text253"></span>
+                    <span>Define your data models using Pydantic.</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card16">
+                  <div class="fast-api-project-setup-frame214722637316">
+                    <div class="fast-api-project-setup-frame214722637416">
+                      <img
+                        src="public/external/iconoirterminal2002-e6.svg"
+                        alt="iconoirterminal2002"
+                        class="fast-api-project-setup-iconoirterminal16"
+                      />
+                      <span
+                        class="fast-api-project-setup-text255 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy16">
+                      <img
+                        src="public/external/icon2002-4vhj.svg"
+                        alt="icon2002"
+                        class="fast-api-project-setup-icon16"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code16">
+                    <span class="fast-api-project-setup-text257">
+                      <span># app/models/item.py</span>
+                      <br />
+                      <span>from pydantic import BaseModel</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>class Item(BaseModel):</span>
+                      <br />
+                      <span>name: str</span>
+                      <br />
+                      <span>description: str = None</span>
+                      <br />
+                      <span>price: float</span>
+                      <br />
+                      <span>tax: float = None</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-i9gd-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402916"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext16">
+                  <span class="fast-api-project-setup-text273">
+                    <span class="fast-api-project-setup-text274">
+                      Creating Schemas:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text276"></span>
+                    <span>Use schemas to validate and serialize data.</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card17">
+                  <div class="fast-api-project-setup-frame214722637317">
+                    <div class="fast-api-project-setup-frame214722637417">
+                      <img
+                        src="public/external/iconoirterminal2002-n8a.svg"
+                        alt="iconoirterminal2002"
+                        class="fast-api-project-setup-iconoirterminal17"
+                      />
+                      <span
+                        class="fast-api-project-setup-text278 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy17">
+                      <img
+                        src="public/external/icon2002-qqw.svg"
+                        alt="icon2002"
+                        class="fast-api-project-setup-icon17"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code17">
+                    <span class="fast-api-project-setup-text280">
+                      <span># app/schemas/item.py</span>
+                      <br />
+                      <span>from pydantic import BaseModel</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>class Item(BaseModel):</span>
+                      <br />
+                      <span>name: str</span>
+                      <br />
+                      <span>description: str = None</span>
+                      <br />
+                      <span>price: float</span>
+                      <br />
+                      <span>tax: float = None</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-doe-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402917"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext17">
+                  <span class="fast-api-project-setup-text296">
+                    <span class="fast-api-project-setup-text297">
+                      Creating Routers:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text299"></span>
+                    <span>Organize your endpoints into routers.</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card18">
+                  <div class="fast-api-project-setup-frame214722637318">
+                    <div class="fast-api-project-setup-frame214722637418">
+                      <img
+                        src="public/external/iconoirterminal2012-e1t4.svg"
+                        alt="iconoirterminal2012"
+                        class="fast-api-project-setup-iconoirterminal18"
+                      />
+                      <span
+                        class="fast-api-project-setup-text301 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy18">
+                      <img
+                        src="public/external/icon2012-8z6b.svg"
+                        alt="icon2012"
+                        class="fast-api-project-setup-icon18"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code18">
+                    <span class="fast-api-project-setup-text303">
+                      <span># app/routers/item.py</span>
+                      <br />
+                      <span>from fastapi import APIRouter</span>
+                      <br />
+                      <span>from app.models.item import Item</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>router = APIRouter()</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@router.post("/items/", response_model=Item)</span>
+                      <br />
+                      <span>async def create_item(item: Item):</span>
+                      <br />
+                      <span>return item</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292012-2hcj-200w.png"
+                    alt="Rectangle40292012"
+                    class="fast-api-project-setup-rectangle402918"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext18">
+                  <span class="fast-api-project-setup-text321">
+                    <span class="fast-api-project-setup-text322">
+                      Integrating Routers:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text324"></span>
+                    <span>Include routers in your main application.</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card19">
+                  <div class="fast-api-project-setup-frame214722637319">
+                    <div class="fast-api-project-setup-frame214722637419">
+                      <img
+                        src="public/external/iconoirterminal2012-qfv7.svg"
+                        alt="iconoirterminal2012"
+                        class="fast-api-project-setup-iconoirterminal19"
+                      />
+                      <span
+                        class="fast-api-project-setup-text326 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy19">
+                      <img
+                        src="public/external/icon2012-n1ig.svg"
+                        alt="icon2012"
+                        class="fast-api-project-setup-icon19"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code19">
+                    <span class="fast-api-project-setup-text328">
+                      <span># app/main.py</span>
+                      <br />
+                      <span>from fastapi import FastAPI</span>
+                      <br />
+                      <span>from app.routers import item</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>app = FastAPI()</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>app.include_router(item.router)</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292012-z3ha-200w.png"
+                    alt="Rectangle40292012"
+                    class="fast-api-project-setup-rectangle402919"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="fast-api-project-setup-frame2147226387">
+              <div class="fast-api-project-setup-subheading5">
+                <span class="fast-api-project-setup-text342 H4SemiBold">
+                  <span>Best Practices for FastAPI Development</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame21472263754">
+                <div class="fast-api-project-setup-heading5">
+                  <span class="fast-api-project-setup-text344">
+                    <span class="fast-api-project-setup-text345">
+                      Environment Configuration:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text347"></span>
+                    <span>
+                      Use environment variables for configuration settings.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card20">
+                  <div class="fast-api-project-setup-frame214722637320">
+                    <div class="fast-api-project-setup-frame214722637420">
+                      <img
+                        src="public/external/iconoirterminal2002-ydrn.svg"
+                        alt="iconoirterminal2002"
+                        class="fast-api-project-setup-iconoirterminal20"
+                      />
+                      <span
+                        class="fast-api-project-setup-text349 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy20">
+                      <img
+                        src="public/external/icon2002-i9gv.svg"
+                        alt="icon2002"
+                        class="fast-api-project-setup-icon20"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code20">
+                    <span class="fast-api-project-setup-text351">
+                      <span>import os</span>
+                      <br />
+                      <span>DATABASE_URL = os.getenv("DATABASE_URL")</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-mjlc-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402920"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext19">
+                  <span class="fast-api-project-setup-text355">
+                    <span class="fast-api-project-setup-text356">
+                      Error Handling:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text358"></span>
+                    <span>Implement custom exception handlers.</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card21">
+                  <div class="fast-api-project-setup-frame214722637321">
+                    <div class="fast-api-project-setup-frame214722637421">
+                      <img
+                        src="public/external/iconoirterminal2002-xsx9.svg"
+                        alt="iconoirterminal2002"
+                        class="fast-api-project-setup-iconoirterminal21"
+                      />
+                      <span
+                        class="fast-api-project-setup-text360 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy21">
+                      <img
+                        src="public/external/icon2002-535t.svg"
+                        alt="icon2002"
+                        class="fast-api-project-setup-icon21"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code21">
+                    <span class="fast-api-project-setup-text362">
+                      <span>from fastapi import HTTPException, Request</span>
+                      <br />
+                      <span>from fastapi.responses import JSONResponse</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.exception_handler(HTTPException)</span>
+                      <br />
+                      <span>
+                        async def http_exception_handler(request: Request, exc:
+                        HTTPException):
+                      </span>
+                      <br />
+                      <span>return JSONResponse(</span>
+                      <br />
+                      <span>status_code=exc.status_code,</span>
+                      <br />
+                      <span>content={"message": exc.detail},</span>
+                      <br />
+                      <span>)</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292002-j17-200w.png"
+                    alt="Rectangle40292002"
+                    class="fast-api-project-setup-rectangle402921"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext20">
+                  <span class="fast-api-project-setup-text380">
+                    <span class="fast-api-project-setup-text381">Testing:</span>
+                    <br />
+                    <span class="fast-api-project-setup-text383"></span>
+                    <span>
+                      Write tests to ensure your application works as expected.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card22">
+                  <div class="fast-api-project-setup-frame214722637322">
+                    <div class="fast-api-project-setup-frame214722637422">
+                      <img
+                        src="public/external/iconoirterminal2012-kmc9.svg"
+                        alt="iconoirterminal2012"
+                        class="fast-api-project-setup-iconoirterminal22"
+                      />
+                      <span
+                        class="fast-api-project-setup-text385 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy22">
+                      <img
+                        src="public/external/icon2012-n35.svg"
+                        alt="icon2012"
+                        class="fast-api-project-setup-icon22"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code22">
+                    <span class="fast-api-project-setup-text387">
+                      <span># test_main.py</span>
+                      <br />
+                      <span>from fastapi.testclient import TestClient</span>
+                      <br />
+                      <span>from app.main import app</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>client = TestClient(app)</span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>def test_read_main():</span>
+                      <br />
+                      <span>response = client.get("/")</span>
+                      <br />
+                      <span>assert response.status_code == 200</span>
+                      <br />
+                      <span>
+                        assert response.json() == {"message": "Welcome to
+                        FastAPI!"}
+                      </span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292012-9epg-200w.png"
+                    alt="Rectangle40292012"
+                    class="fast-api-project-setup-rectangle402922"
+                  />
+                </div>
+                <div class="fast-api-project-setup-subtext21">
+                  <span class="fast-api-project-setup-text407">
+                    <span class="fast-api-project-setup-text408">
+                      Security:
+                    </span>
+                    <br />
+                    <span class="fast-api-project-setup-text410"></span>
+                    <span>
+                      Implement authentication and authorization mechanisms.
+                    </span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-code-card23">
+                  <div class="fast-api-project-setup-frame214722637323">
+                    <div class="fast-api-project-setup-frame214722637423">
+                      <img
+                        src="public/external/iconoirterminal2012-qiw.svg"
+                        alt="iconoirterminal2012"
+                        class="fast-api-project-setup-iconoirterminal23"
+                      />
+                      <span
+                        class="fast-api-project-setup-text412 BodyRegularxsmall"
+                      >
+                        <span>python</span>
+                      </span>
+                    </div>
+                    <div class="fast-api-project-setup-copy23">
+                      <img
+                        src="public/external/icon2012-zfa.svg"
+                        alt="icon2012"
+                        class="fast-api-project-setup-icon23"
+                      />
+                    </div>
+                  </div>
+                  <div class="fast-api-project-setup-code23">
+                    <span class="fast-api-project-setup-text414">
+                      <span>
+                        from fastapi.security import OAuth2PasswordBearer
+                      </span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>
+                        oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
+                      </span>
+                      <br />
+                      <span></span>
+                      <br />
+                      <span>@app.get("/users/me")</span>
+                      <br />
+                      <span>
+                        async def read_users_me(token: str =
+                        Depends(oauth2_scheme)):
+                      </span>
+                      <br />
+                      <span>return {"token": token}</span>
+                    </span>
+                  </div>
+                  <img
+                    src="public/external/rectangle40292012-p93t-200w.png"
+                    alt="Rectangle40292012"
+                    class="fast-api-project-setup-rectangle402923"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="fast-api-project-setup-frame2147226388">
+              <div class="fast-api-project-setup-subheading6">
+                <span class="fast-api-project-setup-text428 H4SemiBold">
+                  <span>Conclusion</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame21472263755">
+                <div class="fast-api-project-setup-heading6">
+                  <span class="fast-api-project-setup-text430">
+                    <span>
+                      Setting up a FastAPI project is straightforward and
+                      provides a robust foundation for building high-performance
+                      APIs. With its ease of use, automatic documentation, and
+                      type safety, FastAPI enables developers to create reliable
+                      and maintainable applications quickly. By following this
+                      guide, you’ll be able to leverage the full potential of
+                      FastAPI and build efficient, scalable APIs for your
+                      projects.
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fast-api-project-setup-frame1000001687">
+            <div class="fast-api-project-setup-unauthenticated-navbar">
+              <div class="fast-api-project-setup-hng-boilerplate-logo1">
+                <div class="fast-api-project-setup-group41">
+                  <span class="fast-api-project-setup-text432">
+                    <span>[ ]</span>
+                  </span>
+                  <img
+                    src="public/external/mdikettlei2002-nx2v.svg"
+                    alt="mdikettleI2002"
+                    class="fast-api-project-setup-mdikettle1"
+                  />
+                </div>
+                <span class="fast-api-project-setup-text434 H3SemiBold">
+                  <span>HNG Boilerplate</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-links1">
+                <div class="fast-api-project-setup-links2">
+                  <span class="fast-api-project-setup-text436 Paragraph2Medium">
+                    <span>Home</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-links3">
+                  <span class="fast-api-project-setup-text438 Paragraph2Medium">
+                    <span>Pricing</span>
+                  </span>
+                </div>
+                <div class="fast-api-project-setup-links4">
+                  <span class="fast-api-project-setup-text440 Paragraph2Medium">
+                    <span>Features</span>
+                  </span>
+                </div>
+              </div>
+              <button class="fast-api-project-setup-buttons1"></button>
+              <button class="fast-api-project-setup-button1">
+                <span class="fast-api-project-setup-text442 bodyMedium">
+                  <span>Log In</span>
+                </span>
+              </button>
+              <button class="fast-api-project-setup-button2">
+                <span class="fast-api-project-setup-text444 bodyMedium">
+                  <span>Get Started</span>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="fast-api-project-setup-bread-crumb">
+            <div class="fast-api-project-setup-breadcrumb">
+              <div class="fast-api-project-setup-item">
+                <div class="fast-api-project-setup-link">
+                  <span class="fast-api-project-setup-text446">
+                    <span>Help</span>
+                  </span>
+                </div>
+                <img
+                  src="public/external/framei2002-bqms.svg"
+                  alt="FrameI2002"
+                  class="fast-api-project-setup-frame"
+                />
+              </div>
+              <div class="fast-api-project-setup-item-link">
+                <span class="fast-api-project-setup-text448">
+                  <span>FastAPI Project Setup</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="fast-api-project-setup-content">
+            <span class="fast-api-project-setup-text450 H6Regular">
+              <span>Introduction</span>
+            </span>
+            <span class="fast-api-project-setup-text452">
+              <span>Setting Up Your Development Environment</span>
+            </span>
+            <span class="fast-api-project-setup-text454">
+              <span>Creating a Basic FastAPI Application</span>
+            </span>
+            <span class="fast-api-project-setup-text456">
+              <span>Interactive API Documentation:</span>
+            </span>
+            <span class="fast-api-project-setup-text458">
+              <span>Structuring Your FastAPI Project</span>
+            </span>
+            <span class="fast-api-project-setup-text460">
+              <span>Best Practices for FastAPI Development</span>
+            </span>
+            <span class="fast-api-project-setup-text462">
+              <span>Conclusion</span>
+            </span>
+          </div>
+          <div class="fast-api-project-setup-frame2147226215">
+            <div class="fast-api-project-setup-lightmooddesktopfooter">
+              <span class="fast-api-project-setup-text464 H5SemiBold">
+                <span>Navigation</span>
+              </span>
+              <span class="fast-api-project-setup-text466 H5SemiBold">
+                <span>Support</span>
+              </span>
+              <span class="fast-api-project-setup-text468 H5Bold">
+                <span>Legal</span>
+              </span>
+              <div class="fast-api-project-setup-frame53075">
+                <span class="fast-api-project-setup-text470 H6Regular">
+                  <span>Home</span>
+                </span>
+                <span class="fast-api-project-setup-text472 H6Regular">
+                  <span>About us</span>
+                </span>
+                <span class="fast-api-project-setup-text474 H6Regular">
+                  <span>Careers</span>
+                </span>
+                <span class="fast-api-project-setup-text476 H6Regular">
+                  <span>Feature updates</span>
+                </span>
+                <span class="fast-api-project-setup-text478 H6Regular">
+                  <span>Blog</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame53076">
+                <span class="fast-api-project-setup-text480 H6Regular">
+                  <span>Help Center</span>
+                </span>
+                <span class="fast-api-project-setup-text482 H6Regular">
+                  <span>FAQ</span>
+                </span>
+                <span class="fast-api-project-setup-text484 H6Regular">
+                  <span>Waiting list</span>
+                </span>
+                <span class="fast-api-project-setup-text486 H6Regular">
+                  <span>Pricing Experience</span>
+                </span>
+                <span class="fast-api-project-setup-text488 H6Regular">
+                  <span>Contact Us</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame53077">
+                <span class="fast-api-project-setup-text490 H6Regular">
+                  <span>Privacy Policy</span>
+                </span>
+                <span class="fast-api-project-setup-text492 H6Regular">
+                  <span>Terms and condition</span>
+                </span>
+              </div>
+              <span class="fast-api-project-setup-text494">
+                <span>Sign Up For Newsletter</span>
+              </span>
+              <div class="fast-api-project-setup-frame53036">
+                <div class="fast-api-project-setup-frame53034">
+                  <span class="fast-api-project-setup-text496">
+                    <span>Enter Email</span>
+                  </span>
+                  <button class="fast-api-project-setup-buttons2">
+                    <span class="fast-api-project-setup-text498 bodyMedium1">
+                      <span>Subscribe</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+              <img
+                src="public/external/vector1i2002-d2hh.svg"
+                alt="Vector1I2002"
+              />
+              <span class="fast-api-project-setup-text500 BodyMediumsmall">
+                <span>Privacy Policy</span>
+              </span>
+              <span class="fast-api-project-setup-text502 BodyMediumsmall">
+                <span>Terms of Use</span>
+              </span>
+              <div class="fast-api-project-setup-frame53044">
+                <div class="fast-api-project-setup-tablercopyright">
+                  <div class="fast-api-project-setup-group1">
+                    <img
+                      src="public/external/vectori2002-4atv.svg"
+                      alt="VectorI2002"
+                      class="fast-api-project-setup-vector1"
+                    />
+                    <img
+                      src="public/external/vectori2002-p4pr.svg"
+                      alt="VectorI2002"
+                      class="fast-api-project-setup-vector2"
+                    />
+                  </div>
+                </div>
+                <span class="fast-api-project-setup-text504">
+                  <span>2024 All Rights Reserved</span>
+                </span>
+              </div>
+              <div class="fast-api-project-setup-frame53043">
+                <div class="fast-api-project-setup-frame53037">
+                  <div class="fast-api-project-setup-primetwitter">
+                    <div class="fast-api-project-setup-group2">
+                      <div class="fast-api-project-setup-clippathgroup">
+                        <div class="fast-api-project-setup-prime-twitter0">
+                          <img
+                            src="public/external/vectori2002-wkza.svg"
+                            alt="VectorI2002"
+                            class="fast-api-project-setup-vector3"
+                          />
+                        </div>
+                        <div class="fast-api-project-setup-group3">
+                          <img
+                            src="public/external/vectori2002-h3uh.svg"
+                            alt="VectorI2002"
+                            class="fast-api-project-setup-vector4"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="fast-api-project-setup-frame53039">
+                  <img
+                    src="public/external/mdiyoutubei2002-j1c.svg"
+                    alt="mdiyoutubeI2002"
+                    class="fast-api-project-setup-mdiyoutube"
+                  />
+                </div>
+                <div class="fast-api-project-setup-frame53040">
+                  <img
+                    src="public/external/mdiinstagrami2002-67g.svg"
+                    alt="mdiinstagramI2002"
+                    class="fast-api-project-setup-mdiinstagram"
+                  />
+                </div>
+                <img
+                  src="public/external/frame53041i2002-nw1b.svg"
+                  alt="Frame53041I2002"
+                  class="fast-api-project-setup-frame530411"
+                />
+                <div class="fast-api-project-setup-frame530412">
+                  <img
+                    src="public/external/rifacebookfilli2002-qbch.svg"
+                    alt="rifacebookfillI2002"
+                    class="fast-api-project-setup-rifacebookfill"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="fast-api-project-setup-group1000006011">
+              <span class="fast-api-project-setup-text506 BodyMediumsmall">
+                <span>10111, Hornchurch, London, United Kingdom</span>
+              </span>
+              <div class="fast-api-project-setup-frame1171275266">
+                <div class="fast-api-project-setup-hng-boilerplate-logo2">
+                  <div class="fast-api-project-setup-group42">
+                    <span class="fast-api-project-setup-text508">
+                      <span>[ ]</span>
+                    </span>
+                    <img
+                      src="public/external/mdikettlei2002-c517.svg"
+                      alt="mdikettleI2002"
+                      class="fast-api-project-setup-mdikettle2"
+                    />
+                  </div>
+                  <span class="fast-api-project-setup-text510 H4SemiBold">
+                    <span>HNG Boilerplate</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
